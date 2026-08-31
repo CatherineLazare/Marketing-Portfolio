@@ -1,0 +1,4 @@
+import type {Metadata} from "next";import "./globals.css";
+export const metadata:Metadata={title:{default:"Marketing Strategy, CRM & Business Analytics Portfolio",template:"%s | Catherine Lazare"},description:"Marketing strategy, CRM, revenue operations, and business analytics portfolio featuring funnel optimization, revenue analysis, marketing leadership, CRM strategy, and data-driven growth.",keywords:["marketing strategy","CRM strategy","revenue operations","business analytics","marketing analytics"],openGraph:{title:"Catherine Lazare | Marketing Strategy Portfolio",description:"Case studies connecting customer insight, marketing operations, and revenue.",type:"website"}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
+
